@@ -4,13 +4,14 @@
 <h2>Dataset</h2>
 <p>The MENA algorithm was applied to a dataset representing the relative abundance of species across different depths (2 cm, 6 cm, 8 cm, 12 cm, and 23 cm) and time points (5 weeks, 9 weeks, 12 weeks, and 23 weeks), encompassing 75% of the samples. </p>
 <h2>Code Usage Instructions</h2>
-<h3>1. Preparing Your Data for MENA (code1.py)</h3>
+<h3>1. Preparing Your Data for MENA (1_Mena_Readyfile.R)</h3>
 <p>This script is used to prepare your data for analysis with MENA. Follow these steps to use it:</p>
 <ol>
-  <li>Ensure your dataset is in the correct format required by MENA.</li>
-  <li>Execute code1.py and provide the path to your dataset as input.</li>
   <li>The script will preprocess your data and generate files necessary for MENA analysis.</li>
+  <li>If the generated dataset containing the top 75% most abundant taxa has fewer than 50 taxa, MENA will not be applied, and the threshold will be adjusted accordingly.</li>
+  <li>Adjustments to the minimum prevalence are based on the dataset size to ensure effective analysis with MENA.</li>
 </ol>
+
 
 <h3>2. Applying MENA to Your Dataset (code2.py, code3.py, code4.py)</h3>
 <p>Once your data is prepared, you can apply MENA using the following scripts:</p>
