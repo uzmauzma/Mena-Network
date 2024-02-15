@@ -3,7 +3,7 @@
 <p>This repository contains code related to the investigation of Eukaryote-Prokaryote interactions through Molecular Ecological Network Analysis (MENA) and network analysis techniques. MENA, available at http://129.15.40.240/mena/, is a computational framework commonly used in microbial ecology to examine complex relationships and interactions between taxa of microbial profiles.</p>
 
 <h2>Dataset</h2>
-<p>The MENA algorithm was applied to a dataset representing the relative abundance of species across different depths (2 cm, 6 cm, 8 cm, 12 cm, and 23 cm) and time points (5 weeks, 9 weeks, 12 weeks, and 23 weeks), encompassing 75% of the samples. </p>
+<p>The MENA algorithm was applied to a combined dataset representing the relative abundance of species across different depths (2 cm, 6 cm, 8 cm, 12 cm, and 23 cm) and time points (5 weeks, 9 weeks, 12 weeks, and 23 weeks), encompassing 75% of the samples. The dataset comprised both Eukaryote and Prokaryote data. </p>
 
 <h2>Code Usage Instructions</h2>
 <h3>Preparing Your Data for MENA (1_Mena_Readyfile.R)</h3>
