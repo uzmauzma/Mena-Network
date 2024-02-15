@@ -13,8 +13,12 @@
 </ol>
 
 
-<h3>2. Applying MENA to Your Dataset (code2.py, code3.py, code4.py)</h3>
+<h3>2. Applying MENA to Your Dataset)</h3>
 <p>Once your data is prepared, you can apply MENA using the following scripts:</p>
+<h4>Algorithm Steps</h4>
+<h4>Upload Datasets:</h4><p>Upload the prepared datasets into the software</p>
+<h4>Construct Network:</h4>
+<ol><h4>Upload datasets</h4><li>Upload the prepared datasets into the software</li></ol>
 <ul>
   <li><b>code2.py:</b> This script performs the first stage of MENA analysis.</li>
   <li><b>code3.py:</b> This script performs additional processing steps.</li>
